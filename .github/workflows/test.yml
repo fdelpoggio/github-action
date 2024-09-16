@@ -1,12 +1,11 @@
-on:
+name: CI test
 
+on:
   push:
 
 jobs:
-
   run:
-
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'Test 🚀'
