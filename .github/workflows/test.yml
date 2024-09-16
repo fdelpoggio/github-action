@@ -1,0 +1,13 @@
+on:
+
+  push:
+
+jobs:
+
+  run:
+
+    run-on: ubuntu-latest
+
+    steps:
+      - name: 'Test 🚀'
+        run: echo "Hello Test!"
